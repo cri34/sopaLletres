@@ -1,5 +1,5 @@
 public class Paraula {
-    private Lletra [] lletres;
+    private final Lletra [] lletres;
     private boolean paraulaColocada = false;
     public Paraula(String paraula){
        lletres = new Lletra[paraula.length()];
